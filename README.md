@@ -45,7 +45,10 @@ I provided systemd services in `systemd` directory for your convenience. Don't f
 deviceAddress = "/org/razer/device/BY1750A44000357"
 ```
 
-Currently, it's id for Razer Blade Stealth Late 2018. To find your id, list dbus objects.
+Currently, it's id for Razer Blade Stealth Late 2018. To find your id, list dbus objects with
+```
+qdbus org.razer
+```
 
 - Edit layout of highlighted keys in `src/Layout.hs`
 
