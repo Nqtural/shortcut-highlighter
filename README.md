@@ -47,7 +47,7 @@ deviceAddress = "/org/razer/device/BY1750A44000357"
 
 Currently, it's id for Razer Blade Stealth Late 2018. To find your id, list dbus objects with
 ```
-qdbus org.razer
+qdbus org.razer | awk -F '/' '{print $5}'
 ```
 
 - Edit layout of highlighted keys in `src/Layout.hs`
