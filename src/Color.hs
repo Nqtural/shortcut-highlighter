@@ -3,7 +3,8 @@ module Color where
 import Prelude
 import Data.Int
 import Data.Word
-import Control.Monad.Trans.State
+import Control.Monad.Trans
+import Control.Monad.State
 import Data.Functor.Identity
 import Data.List.Index
 
